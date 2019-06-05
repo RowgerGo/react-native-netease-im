@@ -1247,6 +1247,7 @@
         if ([[NIMSDK sharedSDK].userManager isMyFriend:strSessionId]) {//判断是否为自己好友
             return YES;
         }else{
+           return YES;
             //message.localExt = @{@"isFriend":@"NO"};
             // [[NIMSDK sharedSDK].conversationManager saveMessage:message forSession:_session completion:nil];
             // NSString *strSessionName = @"";
